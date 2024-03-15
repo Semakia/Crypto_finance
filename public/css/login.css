@@ -1,0 +1,88 @@
+.connexion-section {
+    background: url('../images/connexion-background.jpg');
+    display: flex ;
+    flex-direction: row;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    
+    /*margin: 60px;*/
+    
+    border-top-color: #e9da89 ;
+    
+  }
+
+  .bg-primary {
+    background: url('../images/connexion-background.jpg');
+  }
+  
+  .background-body {
+    background: url('../images/connexion-background.jpg');
+  }
+  
+  .d-grid button {
+    background: linear-gradient(to right, #e5dcb7, #d9c138);
+    /* Ajoutez d'autres propriétés CSS selon vos besoins */
+    color: #fff; /* Couleur du texte */
+    border: #e5dcb7;/* Supprime la bordure du bouton */
+    /* ... d'autres propriétés de style si nécessaire */
+  }
+  .d-grid button:hover {
+    background: linear-gradient(to right, #e5dcb7, rgb(49, 17, 3));
+    /* Ajoutez d'autres propriétés CSS selon vos besoins */
+    color: #fff; /* Couleur du texte */
+    border: #e5dcb7;/* Supprime la bordure du bouton */
+    /* ... d'autres propriétés de style si nécessaire */
+  }
+  
+  
+  
+  .connexion-section h1{
+      font-weight: bold;
+      color: #D9C138;
+  
+  }
+  
+  @media (max-width: 768px) and (max-width: 992px){
+    .connexion-section {
+      background: url('../images/connexion-background.jpg');
+      align-items: center;
+      justify-content: center; /* Ajusté pour centrer horizontalement */
+      padding-top: 70px;
+    }
+   
+    .background-body {
+      background-image: url('../images/connexion-background.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+    
+    .im-fluid{
+      justify-content: center;
+      align-items: center;
+    }
+    .d-grid button {
+      background: linear-gradient(to right, #e5dcb7, #d9c138);
+      /* Ajoutez d'autres propriétés CSS selon vos besoins */
+      color: #fff; /* Couleur du texte */
+      border: #e5dcb7;/* Supprime la bordure du bouton */
+      /* ... d'autres propriétés de style si nécessaire */
+    }
+    .d-grid button:hover {
+      background: linear-gradient(to right, #e5dcb7, rgb(49, 17, 3));
+      /* Ajoutez d'autres propriétés CSS selon vos besoins */
+      color: #fff; /* Couleur du texte */
+      border: #e5dcb7;/* Supprime la bordure du bouton */
+      /* ... d'autres propriétés de style si nécessaire */
+    }
+    
+    
+    
+    .connexion-section h1{
+        font-weight: bold;
+        color: #D9C138;
+    
+    }
+  }
